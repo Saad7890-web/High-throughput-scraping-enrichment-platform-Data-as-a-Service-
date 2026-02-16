@@ -1,0 +1,6 @@
+CREATE TABLE jobs (
+    id UUID PRIMARY KEY,
+    url TEXT NOT NULL,
+    status TEXT NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT NOW()
+);
